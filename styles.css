@@ -1,5 +1,5 @@
 
-/* Base typography and layout */
+/* Base font and reset still applies */
 body {
   font-family: 'DM Sans', sans-serif;
   margin: 0;
@@ -8,25 +8,54 @@ body {
   line-height: 1.6;
 }
 
-header {
+/* Stylized Header */
+.site-header {
   background-color: #1a1a1a;
   color: #ffffff;
-  padding: 2rem 2rem 1rem;
-  text-align: left;
+  padding: 1.5rem 1rem 0.5rem;
+  text-align: center;
+  border-bottom: 4px solid #0074d9;
 }
 
-header h1 {
+.site-brand h1 {
   margin: 0;
   font-size: 2rem;
   font-weight: 700;
 }
 
-header p {
-  margin-top: 0.5rem;
+.site-brand .tagline {
   font-size: 1rem;
   color: #ccc;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
 }
 
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 0.75rem 0;
+}
+
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: #66b3ff;
+}
+
+/* Continue previous layout styles */
 .container {
   max-width: 900px;
   margin: auto;
