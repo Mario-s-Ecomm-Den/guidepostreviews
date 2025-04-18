@@ -1,0 +1,107 @@
+
+/* Base typography and layout */
+body {
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  background-color: #f5f6f7;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 2rem 2rem 1rem;
+  text-align: left;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1f3a93;
+  margin-top: 2rem;
+}
+
+.hero-intro {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.product {
+  border-top: 1px solid #e0e0e0;
+  padding: 1.5rem 0;
+}
+
+.specs {
+  font-size: 0.95rem;
+  color: #555;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #0074d9;
+  color: #ffffff;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.cta:hover {
+  background-color: #005fa3;
+}
+
+.buyer-guide {
+  background-color: #eef2f6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #aaa;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #bbb;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
