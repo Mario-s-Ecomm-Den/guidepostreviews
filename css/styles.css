@@ -53,7 +53,7 @@ a.cta:hover {
 
 /* Header styles */
 .site-header.light {
-  background-color: #f2f3f5;
+  background-color: #e6f4f1; /* Updated background color */
   color: #111;
   border-bottom: 2px solid #d0d3d6;
   text-align: center;
@@ -67,15 +67,20 @@ a.cta:hover {
 }
 
 .site-header .site-logo {
-  display: block;
-  width: 160px;
-  height: 50px;
+  width: 240px; /* Default width */
+  height: auto;
+  margin: 0 auto 0.5rem;
   background-image: url('../images/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: center;
   text-indent: -9999px;
-  flex-shrink: 0;
+}
+
+@media (min-width: 1200px) {
+  .site-header .site-logo {
+    width: 300px; /* Wider logo for larger screens */
+  }
 }
 
 .header-inner {
