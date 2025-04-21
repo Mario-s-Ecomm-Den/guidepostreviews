@@ -154,41 +154,51 @@ a.cta:hover {
   margin-top: 2rem;
 }
 
-/* Footer styles */
+/* Footer styles - Wirecutter-inspired with refined alignment */
 .site-footer {
   background-color: #1a1a1a;
   color: #ddd;
-  padding: 3rem 1rem;
-  text-align: center;
+  padding: 3rem 0;
+  font-family: 'DM Sans', sans-serif;
 }
 
-.footer-logo {
-  max-width: 120px;
-  margin-bottom: 1rem;
+.site-footer .footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  text-align: left;
 }
 
-.footer-description {
-  font-size: 0.95rem;
-  color: #ccc;
-  max-width: 600px;
-  margin: 0 auto 1rem;
+.site-footer .footer-logo {
+  max-width: 180px;
+  margin-bottom: 1.5rem;
 }
 
-.footer-links {
+.site-footer .footer-description {
+  font-size: 1.05rem;
+  max-width: 520px;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+  font-weight: 400;
+  text-align: left;
+}
+
+.site-footer .footer-links {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-size: 0.95rem;
   gap: 1.5rem;
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
-  width: 100%;
+  color: #aaa;
+  text-align: center;
 }
 
-.footer-links a {
-  color: #bbb;
+.site-footer .footer-links a {
+  color: #aaa;
   text-decoration: none;
 }
 
-.footer-links a:hover {
+.site-footer .footer-links a:hover {
   text-decoration: underline;
 }
