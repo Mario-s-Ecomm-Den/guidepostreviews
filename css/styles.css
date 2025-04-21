@@ -190,6 +190,7 @@ a.cta:hover {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1.5rem;
+  text-align: left; /* ⬅️ Force left alignment inside the container */
 }
 
 .site-footer .footer-logo {
@@ -199,11 +200,12 @@ a.cta:hover {
 
 .site-footer .footer-description {
   font-size: 1.05rem;
-  max-width: 640px;
+  max-width: 520px;
   line-height: 1.7;
   margin-bottom: 2rem;
   color: #e0e0e0;
   font-weight: 400;
+  text-align: left;
 }
 
 .site-footer .footer-links {
