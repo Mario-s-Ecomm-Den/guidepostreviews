@@ -67,6 +67,17 @@ a.cta:hover {
   margin-bottom: 0.5rem;
 }
 
+.site-header .site-logo {
+  display: block;
+  width: 160px;
+  height: 40px;
+  background-image: url('../images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  text-indent: -9999px;
+}
+
 .main-nav ul {
   list-style: none;
   padding: 0;
@@ -201,4 +212,15 @@ a.cta:hover {
 
 .site-footer .footer-links a:hover {
   text-decoration: underline;
+}
+
+.site-footer .footer-logo {
+  display: block;
+  width: 160px;
+  height: 40px;
+  background-image: url('../images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-indent: -9999px;
 }
