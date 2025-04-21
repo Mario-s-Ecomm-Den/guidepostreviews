@@ -158,21 +158,37 @@ a.cta:hover {
 .site-footer {
   background-color: #1a1a1a;
   color: #ddd;
-  padding: 3rem 1rem;
-  text-align: center;
+  padding: 3rem 1.5rem;
+  text-align: left;
+  font-family: 'DM Serif Display', serif; /* Use this if you want a classier serif feel */
 }
 
-.site-footer .footer-content {
-  max-width: 800px;
-  margin: auto;
+.site-footer .footer-logo {
+  max-width: 180px;
+  margin-bottom: 1.5rem;
 }
 
-.site-footer a {
-  color: #bbb;
+.site-footer .footer-description {
+  font-size: 1.1rem;
+  max-width: 600px;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+.site-footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+  gap: 1.5rem;
+  color: #aaa;
+}
+
+.site-footer .footer-links a {
+  color: #aaa;
   text-decoration: none;
-  margin: 0 0.5rem;
 }
 
-.site-footer a:hover {
+.site-footer .footer-links a:hover {
   text-decoration: underline;
 }
